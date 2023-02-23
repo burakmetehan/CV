@@ -11,7 +11,8 @@
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
+\usepackage[dvipsnames]{xcolor}
+% \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -40,6 +41,10 @@
 \definecolor{taggreen}{HTML}{00E278}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
 \definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\definecolor{DarkPurple}{HTML}{5B2C6F}
 \colorlet{name}{black}
 \colorlet{tagline}{darkcolor}
 \colorlet{heading}{darkcolor}
@@ -82,8 +87,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-4pt}\color{DarkPurple}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{GoldenEarth}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
